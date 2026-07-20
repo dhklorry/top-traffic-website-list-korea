@@ -21,232 +21,232 @@
   },
   {
     "rank": 5,
-    "website": "gamer.com.tw",
-    "category": "Games > Video Games Consoles and Accessories"
-  },
-  {
-    "rank": 6,
     "website": "instagram.com",
     "category": "Computers Electronics and Technology > Social Media Networks"
   },
   {
+    "rank": 6,
+    "website": "gamer.com.tw",
+    "category": "Games > Video Games Consoles and Accessories"
+  },
+  {
     "rank": 7,
-    "website": "chatgpt.com",
-    "category": "AI Chatbots and Tools"
-  },
-  {
-    "rank": 8,
-    "website": "shopee.tw",
-    "category": "Ecommerce & Shopping > Marketplace"
-  },
-  {
-    "rank": 9,
-    "website": "wikipedia.org",
-    "category": "Reference Materials > Dictionaries and Encyclopedias"
-  },
-  {
-    "rank": 10,
     "website": "threads.com",
     "category": "Computers Electronics and Technology > Social Media Networks"
   },
   {
-    "rank": 11,
-    "website": "news.yahoo.com",
-    "category": "News & Media Publishers"
-  },
-  {
-    "rank": 12,
-    "website": "dcard.tw",
-    "category": "Computers Electronics and Technology > Social Media Networks"
-  },
-  {
-    "rank": 13,
-    "website": "udn.com",
-    "category": "News & Media Publishers"
-  },
-  {
-    "rank": 14,
-    "website": "ptt.cc",
-    "category": "Computers Electronics and Technology > Social Media Networks"
-  },
-  {
-    "rank": 15,
-    "website": "bilibili.com",
-    "category": "Arts & Entertainment > Animation and Comics"
-  },
-  {
-    "rank": 16,
-    "website": "line.me",
-    "category": "Computers Electronics and Technology > Social Media Networks"
-  },
-  {
-    "rank": 17,
-    "website": "ettoday.net",
-    "category": "News & Media Publishers"
-  },
-  {
-    "rank": 18,
-    "website": "momoshop.com.tw",
-    "category": "Ecommerce & Shopping > Marketplace"
-  },
-  {
-    "rank": 19,
-    "website": "x.com",
-    "category": "Computers Electronics and Technology > Social Media Networks"
-  },
-  {
-    "rank": 20,
-    "website": "mobile01.com",
-    "category": "Computers Electronics and Technology > Computers Electronics and Technology - Other"
-  },
-  {
-    "rank": 21,
-    "website": "twitch.tv",
-    "category": "Games > Video Games Consoles and Accessories"
-  },
-  {
-    "rank": 22,
-    "website": "cwa.gov.tw",
-    "category": "Computers Electronics and Technology > Programming and Developer Software"
-  },
-  {
-    "rank": 23,
-    "website": "google.com.tw",
-    "category": "Computers Electronics and Technology > Search Engines"
-  },
-  {
-    "rank": 24,
-    "website": "xbanxia.cc",
-    "category": "Arts & Entertainment > Books and Literature"
-  },
-  {
-    "rank": 25,
-    "website": "ltn.com.tw",
-    "category": "News & Media Publishers"
-  },
-  {
-    "rank": 26,
-    "website": "baidu.com",
-    "category": "Computers Electronics and Technology > Search Engines"
-  },
-  {
-    "rank": 27,
+    "rank": 8,
     "website": "gemini.google.com",
     "category": "AI Chatbots and Tools"
   },
   {
-    "rank": 28,
-    "website": "netflix.com",
-    "category": "Arts & Entertainment > Streaming & Online TV"
+    "rank": 9,
+    "website": "shopee.tw",
+    "category": "Ecommerce & Shopping > Marketplace"
   },
   {
-    "rank": 29,
-    "website": "pchome.com.tw",
-    "category": "Computers Electronics and Technology > Computers Electronics and Technology - Other"
+    "rank": 10,
+    "website": "chatgpt.com",
+    "category": "AI Chatbots and Tools"
   },
   {
-    "rank": 30,
-    "website": "jable.tv",
-    "category": "Adult"
+    "rank": 11,
+    "website": "wikipedia.org",
+    "category": "Reference Materials > Dictionaries and Encyclopedias"
   },
   {
-    "rank": 31,
-    "website": "tvbs.com.tw",
-    "category": "Arts & Entertainment > Streaming & Online TV"
-  },
-  {
-    "rank": 32,
-    "website": "69shuba.com",
-    "category": "Arts & Entertainment > Books and Literature"
-  },
-  {
-    "rank": 33,
-    "website": "pixnet.net",
-    "category": "News & Media Publishers"
-  },
-  {
-    "rank": 34,
-    "website": "missav.ws",
-    "category": "Adult"
-  },
-  {
-    "rank": 35,
-    "website": "twkan.com",
-    "category": "Arts & Entertainment > Books and Literature"
-  },
-  {
-    "rank": 36,
-    "website": "czbooks.net",
+    "rank": 12,
+    "website": "bilibili.com",
     "category": "Arts & Entertainment > Animation and Comics"
   },
   {
-    "rank": 37,
-    "website": "chinatimes.com",
+    "rank": 13,
+    "website": "ptt.cc",
+    "category": "Computers Electronics and Technology > Social Media Networks"
+  },
+  {
+    "rank": 14,
+    "website": "news.yahoo.com",
     "category": "News & Media Publishers"
   },
   {
-    "rank": 38,
-    "website": "setn.com",
+    "rank": 15,
+    "website": "dcard.tw",
+    "category": "Computers Electronics and Technology > Social Media Networks"
+  },
+  {
+    "rank": 16,
+    "website": "udn.com",
     "category": "News & Media Publishers"
   },
   {
-    "rank": 39,
+    "rank": 17,
+    "website": "line.me",
+    "category": "Computers Electronics and Technology > Social Media Networks"
+  },
+  {
+    "rank": 18,
+    "website": "x.com",
+    "category": "Computers Electronics and Technology > Social Media Networks"
+  },
+  {
+    "rank": 19,
+    "website": "cwa.gov.tw",
+    "category": "Computers Electronics and Technology > Programming and Developer Software"
+  },
+  {
+    "rank": 20,
+    "website": "momoshop.com.tw",
+    "category": "Ecommerce & Shopping > Marketplace"
+  },
+  {
+    "rank": 21,
     "website": "wantgoo.com",
     "category": "Finance > Investing"
   },
   {
-    "rank": 40,
+    "rank": 22,
+    "website": "twitch.tv",
+    "category": "Games > Video Games Consoles and Accessories"
+  },
+  {
+    "rank": 23,
+    "website": "ltn.com.tw",
+    "category": "News & Media Publishers"
+  },
+  {
+    "rank": 24,
+    "website": "mobile01.com",
+    "category": "Computers Electronics and Technology > Computers Electronics and Technology - Other"
+  },
+  {
+    "rank": 25,
+    "website": "netflix.com",
+    "category": "Arts & Entertainment > Streaming & Online TV"
+  },
+  {
+    "rank": 26,
+    "website": "ettoday.net",
+    "category": "News & Media Publishers"
+  },
+  {
+    "rank": 27,
+    "website": "baidu.com",
+    "category": "Computers Electronics and Technology > Search Engines"
+  },
+  {
+    "rank": 28,
+    "website": "cmoney.tw",
+    "category": "Finance > Finance - Other"
+  },
+  {
+    "rank": 29,
+    "website": "jable.tv",
+    "category": "Adult"
+  },
+  {
+    "rank": 30,
+    "website": "pchome.com.tw",
+    "category": "Computers Electronics and Technology > Computers Electronics and Technology - Other"
+  },
+  {
+    "rank": 31,
+    "website": "setn.com",
+    "category": "News & Media Publishers"
+  },
+  {
+    "rank": 32,
+    "website": "czbooks.net",
+    "category": "Arts & Entertainment > Animation and Comics"
+  },
+  {
+    "rank": 33,
+    "website": "chinatimes.com",
+    "category": "News & Media Publishers"
+  },
+  {
+    "rank": 34,
+    "website": "tvbs.com.tw",
+    "category": "Arts & Entertainment > Streaming & Online TV"
+  },
+  {
+    "rank": 35,
     "website": "104.com.tw",
     "category": "Jobs and Career > Jobs and Employment"
   },
   {
-    "rank": 41,
-    "website": "news.tvbs.com.tw",
+    "rank": 36,
+    "website": "pixnet.net",
     "category": "News & Media Publishers"
   },
   {
-    "rank": 42,
-    "website": "pornhub.com",
-    "category": "Adult"
+    "rank": 37,
+    "website": "xbanxia.cc",
+    "category": "Arts & Entertainment > Books and Literature"
   },
   {
-    "rank": 43,
-    "website": "happymh.com",
-    "category": "Computers Electronics and Technology > Social Media Networks"
+    "rank": 38,
+    "website": "trip.com",
+    "category": "Travel and Tourism > Travel and Tourism - Other"
   },
   {
-    "rank": 44,
-    "website": "cnyes.com",
-    "category": "Finance > Investing"
-  },
-  {
-    "rank": 45,
-    "website": "businesstoday.com.tw",
-    "category": "News & Media Publishers"
-  },
-  {
-    "rank": 46,
+    "rank": 39,
     "website": "reddit.com",
     "category": "Computers Electronics and Technology > Social Media Networks"
   },
   {
+    "rank": 40,
+    "website": "pornhub.com",
+    "category": "Adult"
+  },
+  {
+    "rank": 41,
+    "website": "happymh.com",
+    "category": "Computers Electronics and Technology > Social Media Networks"
+  },
+  {
+    "rank": 42,
+    "website": "nat.gov.tw",
+    "category": "Computers Electronics and Technology"
+  },
+  {
+    "rank": 43,
+    "website": "7-11.com.tw",
+    "category": "Ecommerce & Shopping > Ecommerce and Shopping - Other"
+  },
+  {
+    "rank": 44,
+    "website": "missav.ws",
+    "category": "Adult"
+  },
+  {
+    "rank": 45,
+    "website": "news.tvbs.com.tw",
+    "category": "News & Media Publishers"
+  },
+  {
+    "rank": 46,
+    "website": "twkan.com",
+    "category": "Arts & Entertainment > Books and Literature"
+  },
+  {
     "rank": 47,
-    "website": "mirrormedia.mg",
+    "website": "thisiscm.com",
     "category": "News & Media Publishers"
   },
   {
     "rank": 48,
-    "website": "cna.com.tw",
-    "category": "News & Media Publishers"
+    "website": "coupang.com",
+    "category": "Ecommerce & Shopping > Ecommerce and Shopping - Other"
   },
   {
     "rank": 49,
-    "website": "nownews.com",
-    "category": "News & Media Publishers"
+    "website": "inline.app",
+    "category": "Food and Drink > Restaurants and Delivery"
   },
   {
     "rank": 50,
-    "website": "storm.mg",
-    "category": "News & Media Publishers"
+    "website": "cnyes.com",
+    "category": "Finance > Investing"
   }
 ]
