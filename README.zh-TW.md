@@ -18,9 +18,9 @@
 - 篩選條件：網域結尾為 `.tw`
 
 ### Cloudflare Radar
-[Cloudflare Radar](https://radar.cloudflare.com/) - Cloudflare 提供的全球網路流量分析平台，透過 Cloudflare 的全球網路基礎設施收集真實流量數據。提供台灣地區的前 100 名網站排名，包含網站分類資訊。資料透過 [Cloudflare Radar API](https://developers.cloudflare.com/radar/) 取得。
+[Cloudflare Radar](https://radar.cloudflare.com/) - Cloudflare 提供的全球網路流量分析平台，依據 [1.1.1.1](https://1.1.1.1/) DNS 查詢量產生網域排名。提供台灣地區的前 100 名網站排名，包含網站分類資訊。資料透過 [Cloudflare Radar API](https://developers.cloudflare.com/radar/) 的 [`/radar/ranking/top`](https://developers.cloudflare.com/radar/investigate/domain-ranking-datasets/) 端點取得。
 
-- 原始資料每日更新
+- 排名時間範圍：過去 24 小時，每日更新（詳見 [Domains ranking](https://developers.cloudflare.com/radar/investigate/domain-ranking-datasets/)）
 - 需要 Cloudflare API Token，請在 `.env` 檔案中設定 `CLOUDFLARE_API_TOKEN`
 
 ### AhrefsTop

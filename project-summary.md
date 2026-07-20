@@ -78,8 +78,8 @@ Identification data for cloud services used by sites:
 ### 4. Data quality control
 
 **check-duplicates.js**
-- Finds duplicates in the merged list
-- Ensures data quality
+- Finds domains in `tranco_list_tw.json` that collide after normalization (stripping `www.`)
+- Writes results to `duplicates-check.json`
 
 ---
 
@@ -94,7 +94,7 @@ Identification data for cloud services used by sites:
   - `fetch-ahrefs.js`: Ahrefs fetch
   - `fetch-similarweb.js`: SimilarWeb fetch
   - `fetch-semrush.js`: Semrush fetch
-  - `check-duplicates.js`: duplicate check
+  - `check-duplicates.js`: Tranco post-normalization duplicate check
 
 ### Data file sizes
 - `merged_lists_tw.json`: **250KB** (primary output)
@@ -206,8 +206,9 @@ CLOUDFLARE_API_TOKEN=your_token_here
 3. Merge
    └─ merge-lists.js → merged_lists_tw.json
 
-4. Quality check
-   └─ check-duplicates.js
+4. Quality check (optional)
+   └─ check-duplicates.js — Tranco domains that collide after normalization
+   └─ writes duplicates-check.json
 ```
 
 ---

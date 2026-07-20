@@ -19,9 +19,9 @@ A toolkit for fetching Taiwan website traffic rankings from multiple sources:
 - Filter: domains ending in `.tw`
 
 ### Cloudflare Radar
-[Cloudflare Radar](https://radar.cloudflare.com/) is Cloudflare’s global traffic analytics platform, using Cloudflare’s network to collect real traffic. Provides Taiwan top 100 with category metadata via the [Cloudflare Radar API](https://developers.cloudflare.com/radar/).
+[Cloudflare Radar](https://radar.cloudflare.com/) ranks domains by [1.1.1.1](https://1.1.1.1/) DNS query volume. Provides Taiwan top 100 with category metadata via the [Cloudflare Radar API](https://developers.cloudflare.com/radar/) [`/radar/ranking/top`](https://developers.cloudflare.com/radar/investigate/domain-ranking-datasets/) endpoint.
 
-- Source data updates daily
+- Ranking window: last 24 hours, updates daily (see [Domains ranking](https://developers.cloudflare.com/radar/investigate/domain-ranking-datasets/))
 - Requires a Cloudflare API token in `.env` as `CLOUDFLARE_API_TOKEN`
 
 ### AhrefsTop
