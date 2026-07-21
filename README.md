@@ -15,6 +15,8 @@ A toolkit for fetching Taiwan website traffic rankings from multiple sources:
 ### Tranco List
 [Tranco List](https://tranco-list.eu/) combines Alexa, Cisco Umbrella, Majestic, Chrome User Experience Report, and other sources for more reliable, stable rankings than any single provider.
 
+Citation: Victor Le Pochat, Tom Van Goethem, Samaneh Tajalizadehkhoob, Maciej Korczyński, and Wouter Joosen. 2019. *Tranco: A Research-Oriented Top Sites Ranking Hardened Against Manipulation*. In *Proceedings of the 26th Annual Network and Distributed System Security Symposium (NDSS 2019)*. https://doi.org/10.14722/ndss.2019.23386
+
 - Source data updates daily
 - Filter: domains ending in `.tw`
 

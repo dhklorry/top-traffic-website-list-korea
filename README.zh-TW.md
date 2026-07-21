@@ -14,6 +14,8 @@
 ### Tranco List
 [Tranco List](https://tranco-list.eu/) - 結合 Alexa, Cisco Umbrella, Majestic, Chrome User Experience Report 等多來源的網站排名，比單一來源更具可靠性與穩定性。
 
+引用：Victor Le Pochat, Tom Van Goethem, Samaneh Tajalizadehkhoob, Maciej Korczyński, Wouter Joosen. 2019. 〈Tranco: A Research-Oriented Top Sites Ranking Hardened Against Manipulation〉. *Proceedings of the 26th Annual Network and Distributed System Security Symposium (NDSS 2019)*. https://doi.org/10.14722/ndss.2019.23386
+
 - 原始資料每日更新
 - 篩選條件：網域結尾為 `.tw`
 
