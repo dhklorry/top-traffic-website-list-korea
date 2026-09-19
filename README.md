@@ -9,6 +9,7 @@ A toolkit for fetching South Korea website traffic rankings from multiple source
 - [AhrefsTop](https://ahrefstop.com/websites/korea) — Korea organic search traffic top 100
 - [SimilarWeb](https://www.similarweb.com/top-websites/korea-republic-of/) — South Korea website traffic top 50
 - [Semrush](https://www.semrush.com/trending-websites/kr/all) — South Korea website traffic top 100
+- [Google CrUX](https://console.cloud.google.com/bigquery) — 1,000 popular website origins in South Korea, based on Chrome page navigations.
 
 ## 📊 Data sources
 
