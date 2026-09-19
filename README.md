@@ -1,14 +1,14 @@
-# Taiwan Website Traffic Ranking Fetcher
+# Korea Website Traffic Ranking Fetcher
 
-For Traditional Chinese documentation, see [`README.zh-TW.md`](README.zh-TW.md).
+The source data and scripts in this repository are for South Korea.
 
-A toolkit for fetching Taiwan website traffic rankings from multiple sources:
+A toolkit for fetching South Korea website traffic rankings from multiple sources:
 
 - [Tranco List](https://tranco-list.eu/) — global top 1 million sites
-- [Cloudflare Radar](https://radar.cloudflare.com/) — Taiwan traffic top 100 (Cloudflare)
-- [AhrefsTop](https://ahrefstop.com/websites/taiwan) — Taiwan organic search traffic top 100
-- [SimilarWeb](https://www.similarweb.com/top-websites/taiwan/) — Taiwan website traffic top 50
-- [Semrush](https://www.semrush.com/trending-websites/tw/all) — Taiwan website traffic top 100
+- [Cloudflare Radar](https://radar.cloudflare.com/) — South Korea traffic top 100 (Cloudflare)
+- [AhrefsTop](https://ahrefstop.com/websites/korea) — Korea organic search traffic top 100
+- [SimilarWeb](https://www.similarweb.com/top-websites/korea-republic-of/) — South Korea website traffic top 50
+- [Semrush](https://www.semrush.com/trending-websites/kr/all) — South Korea website traffic top 100
 
 ## 📊 Data sources
 
@@ -18,26 +18,26 @@ A toolkit for fetching Taiwan website traffic rankings from multiple sources:
 Citation: Victor Le Pochat, Tom Van Goethem, Samaneh Tajalizadehkhoob, Maciej Korczyński, and Wouter Joosen. 2019. *Tranco: A Research-Oriented Top Sites Ranking Hardened Against Manipulation*. In *Proceedings of the 26th Annual Network and Distributed System Security Symposium (NDSS 2019)*. https://doi.org/10.14722/ndss.2019.23386
 
 - Source data updates daily
-- Filter: domains ending in `.tw`
+- Filter: domains ending in `.kr`
 
 ### Cloudflare Radar
-[Cloudflare Radar](https://radar.cloudflare.com/) ranks domains by [1.1.1.1](https://1.1.1.1/) DNS query volume. Provides Taiwan top 100 with category metadata via the [Cloudflare Radar API](https://developers.cloudflare.com/radar/) [`/radar/ranking/top`](https://developers.cloudflare.com/radar/investigate/domain-ranking-datasets/) endpoint.
+[Cloudflare Radar](https://radar.cloudflare.com/) ranks domains by [1.1.1.1](https://1.1.1.1/) DNS query volume. Provides South Korea top 100 with category metadata via the [Cloudflare Radar API](https://developers.cloudflare.com/radar/) [`/radar/ranking/top`](https://developers.cloudflare.com/radar/investigate/domain-ranking-datasets/) endpoint using location `KR`.
 
 - Ranking window: last 24 hours, updates daily (see [Domains ranking](https://developers.cloudflare.com/radar/investigate/domain-ranking-datasets/))
 - Requires a Cloudflare API token in `.env` as `CLOUDFLARE_API_TOKEN`
 
 ### AhrefsTop
-[AhrefsTop](https://ahrefstop.com/websites/taiwan) ranks sites by estimated organic search traffic. Taiwan top 100 with category and search traffic; updated monthly.
+[AhrefsTop](https://ahrefstop.com/websites/korea) ranks sites by estimated organic search traffic. Korea top 100 with category and search traffic; updated monthly.
 
 - Source data updates monthly
 
 ### SimilarWeb
-[SimilarWeb](https://www.similarweb.com/top-websites/taiwan/) aggregates direct measurement, partner data, and public sources. Taiwan top 50 with category and rank change; updated monthly.
+[SimilarWeb](https://www.similarweb.com/top-websites/korea-republic-of/) aggregates direct measurement, partner data, and public sources. South Korea top 50 with category and rank change; updated monthly.
 
 - Source data updates monthly
 
 ### Semrush
-[Semrush](https://www.semrush.com/trending-websites/tw/all) uses clickstream data for real user behavior. Taiwan top 100 with estimated total traffic; updated monthly.
+[Semrush](https://www.semrush.com/trending-websites/kr/all) uses clickstream data for real user behavior. South Korea top 100 with estimated total traffic; updated monthly.
 
 - Source data updates monthly
 
@@ -51,21 +51,21 @@ npm run <tranco|cloudflare|ahrefs|similarweb|semrush|merge>
 ## 📁 Output files
 
 ### Tranco List
-Produces `tranco_list_tw.json`:
+Produces `tranco_list_kr.json`:
 
 ```json
 [
   {
     "rank": 123,
-    "domain": "example.com.tw",
-    "url": "https://example.com.tw"
+    "domain": "example.co.kr",
+    "url": "https://example.co.kr"
   },
   ...
 ]
 ```
 
 ### Cloudflare Radar
-Produces `cloudflare_radar_tw.json`:
+Produces `cloudflare_radar_kr.json`:
 
 ```json
 [
@@ -85,7 +85,7 @@ Produces `cloudflare_radar_tw.json`:
 ```
 
 ### AhrefsTop
-Produces `ahrefs_top_tw.json`:
+Produces `ahrefs_top_kr.json`:
 
 ```json
 [
@@ -102,7 +102,7 @@ Produces `ahrefs_top_tw.json`:
 **Note:** `search_traffic_K` is a plain number in thousands (e.g. "80.4M" → 80400).
 
 ### SimilarWeb
-Produces `similarweb_top_tw.json`:
+Produces `similarweb_top_korea-republic-of.json`:
 
 ```json
 [
@@ -116,7 +116,7 @@ Produces `similarweb_top_tw.json`:
 ```
 
 ### Semrush
-Produces `semrush_top_tw.json`:
+Produces `semrush_top_kr.json`:
 
 ```json
 [
@@ -130,7 +130,7 @@ Produces `semrush_top_tw.json`:
 ```
 
 ### Merge
-Merges all lists into `merged_lists_tw.json`.
+Merges all lists into `merged_lists_kr.json`.
 
 ## 📜 License
 
