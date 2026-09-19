@@ -9,7 +9,7 @@ A toolkit for fetching South Korea website traffic rankings from multiple source
 - [AhrefsTop](https://ahrefstop.com/websites/korea) — Korea organic search traffic top 100
 - [SimilarWeb](https://www.similarweb.com/top-websites/korea-republic-of/) — South Korea website traffic top 50
 - [Semrush](https://www.semrush.com/trending-websites/kr/all) — South Korea website traffic top 100
-- [Google CrUX](https://console.cloud.google.com/bigquery) — 1,000 popular website origins in South Korea, based on Chrome page navigations.
+- [Google CrUX](https://developer.chrome.com/docs/crux) — 1,000 popular website from South Korea based on Chrome user experience data
 
 ## 📊 Data sources
 
@@ -46,8 +46,25 @@ Citation: Victor Le Pochat, Tom Van Goethem, Samaneh Tajalizadehkhoob, Maciej Ko
 
 ```bash
 npm install
-npm run <tranco|cloudflare|ahrefs|similarweb|semrush|merge>
+npm run <tranco|cloudflare|ahrefs|similarweb|semrush|crux|merge>
 ```
+
+### Chrome UX Report
+
+The CrUX fetcher uses the Google Cloud BigQuery CLI (`bq`) to query the public
+`chrome-ux-report.country_kr` dataset. Authenticate `bq` first and provide a
+Google Cloud project for billing, either with `GCLOUD_PROJECT`/`GCP_PROJECT` or
+with `--project`:
+
+```bash
+gcloud auth application-default login
+node fetch-crux.js --project your-gcp-project
+```
+
+The script automatically selects the newest `YYYYMM` table and writes
+`crux_top_kr.json`. Use `--month YYYYMM` to reproduce an earlier snapshot.
+CrUX exposes popularity buckets rather than exact ranks, so the output field
+is named `rank_bucket` and must not be interpreted as a precise position.
 
 ## 📁 Output files
 
