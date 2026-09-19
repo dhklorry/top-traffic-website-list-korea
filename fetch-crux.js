@@ -86,15 +86,47 @@ ORDER BY rank_bucket, website;
 }
 
 function normalizeRows(rows, month) {
-  return rows
-    .map(row => ({
-      website: row.website,
-      rank_bucket: Number(row.rank_bucket),
+  const sitesByHostname = new Map();
+
+  for (const row of rows) {
+    const rankBucket = Number(row.rank_bucket);
+    if (typeof row.website !== 'string' || !Number.isFinite(rankBucket)) continue;
+
+    let origin;
+    try {
+      origin = new URL(row.website);
+    } catch {
+      continue;
+    }
+
+    if (!['http:', 'https:'].includes(origin.protocol)) continue;
+
+    const website = origin.hostname.toLowerCase().replace(/^www\./, '');
+    if (!website) continue;
+
+    const site = {
+      rank: rankBucket,
+      website,
+      url: origin.origin,
+      rank_bucket: rankBucket,
       source: 'Chrome UX Report',
       country: 'KR',
       month
-    }))
-    .filter(row => typeof row.website === 'string' && row.website.length > 0 && Number.isFinite(row.rank_bucket));
+    };
+
+    const existing = sitesByHostname.get(website);
+    if (
+      !existing ||
+      site.rank_bucket < existing.rank_bucket ||
+      (site.rank_bucket === existing.rank_bucket && site.url.startsWith('https://') && !existing.url.startsWith('https://'))
+    ) {
+      sitesByHostname.set(website, site);
+    }
+  }
+
+  return Array.from(sitesByHostname.values()).sort((a, b) =>
+    a.rank_bucket - b.rank_bucket || a.website.localeCompare(b.website)
+  );
 }
 
 async function main() {
@@ -118,7 +150,11 @@ async function main() {
   if (process.env.DEBUG === '1') console.log(`Query:\n${query}`);
 }
 
-main().catch(error => {
-  console.error(`Error: ${error.message}`);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch(error => {
+    console.error(`Error: ${error.message}`);
+    process.exit(1);
+  });
+}
+
+module.exports = { normalizeRows, parseArgs };

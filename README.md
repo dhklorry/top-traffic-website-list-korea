@@ -53,36 +53,86 @@ npm run <tranco|cloudflare|ahrefs|similarweb|semrush|crux|merge>
 
 The CrUX fetcher uses the official `@google-cloud/bigquery` Node.js package to
 query the public `chrome-ux-report.country_kr` dataset. The package is
-installed by `npm install`; the Google Cloud CLI (`gcloud`) is not an npm
-dependency and must be installed separately if you use local user login.
+installed by `npm install`.
 
-On macOS, install the Google Cloud CLI with Homebrew:
+#### No-cost setup with BigQuery Sandbox
+
+For a no-cost setup, use [BigQuery Sandbox](https://cloud.google.com/bigquery/docs/sandbox).
+Sandbox can query public datasets without adding a billing account or credit
+card. BigQuery's on-demand analysis also has a free allowance of 1 TiB per
+month; see the current [BigQuery pricing](https://cloud.google.com/bigquery/pricing).
+
+The first authentication and Sandbox setup are interactive. After that,
+fetching and writing the JSON can be automated by this repository.
+
+To enable BigQuery Sandbox:
+
+1. Open the [BigQuery page in Google Cloud Console](https://console.cloud.google.com/bigquery).
+2. Sign in with a Google Account, or create one if needed.
+3. On the welcome page, select your country, review and accept the Terms of
+   Service, and click **Agree and continue**. Email updates are optional.
+4. Click **Create project**.
+5. Enter a project name. For **Organization**, select your organization or
+   **No organization** if the account is not managed by one. If Google asks
+   for a location, click **Browse** and select one.
+6. Click **Create**. Google returns you to the BigQuery page.
+7. Confirm that the BigQuery page displays the Sandbox notice. Billing should
+   remain disabled for this project.
+8. Open the project selector in the top navigation, select the new project,
+   and copy its project ID. The project ID can differ from the display name.
+
+Then run the following commands from this repository, replacing the example
+project ID with the copied value:
 
 ```bash
-brew install --cask google-cloud-sdk
+export GCLOUD_PROJECT="your-gcp-project-id"
+npm install
+npm run crux -- --project "$GCLOUD_PROJECT"
 ```
 
-Then authenticate and provide a Google Cloud project for billing:
+On success, the fetcher creates `crux_top_kr.json`. Verify that the output is
+valid and non-empty:
 
 ```bash
-gcloud auth application-default login
-export GCLOUD_PROJECT="your-gcp-project"
-npm run crux
-```
-
-Alternatively, use a service-account credential without installing `gcloud`:
-
-```bash
-export GOOGLE_APPLICATION_CREDENTIALS="/path/to/service-account.json"
-npm run crux -- --project your-gcp-project
+node -e "const d=require('./crux_top_kr.json'); if (!Array.isArray(d) || d.length === 0) process.exit(1); console.log({count:d.length, first:d.slice(0,5), last:d.at(-1)})"
 ```
 
 The script automatically selects the newest `YYYYMM` table and writes
-`crux_top_kr.json`. Use `--month YYYYMM` to reproduce an earlier snapshot.
+`crux_top_kr.json`. Use `--month YYYYMM` to reproduce an earlier snapshot:
+
+```bash
+npm run crux -- --project your-gcp-project-id --month 202608
+```
+
+The query and JSON write are automated, but the initial Google login, project
+selection, and Sandbox consent remain manual account actions.
+
 CrUX exposes popularity buckets rather than exact ranks, so the output field
 is named `rank_bucket` and must not be interpreted as a precise position.
 
 ## 📁 Output files
+
+### Chrome UX Report
+
+Produces `crux_top_kr.json` in a format compatible with the other source
+lists:
+
+```json
+[
+  {
+    "rank": 1000,
+    "website": "example.com",
+    "url": "https://example.com",
+    "rank_bucket": 1000,
+    "source": "Chrome UX Report",
+    "country": "KR",
+    "month": "202608"
+  }
+]
+```
+
+`rank` mirrors `rank_bucket` for compatibility with the merge pipeline. It is
+still a CrUX popularity bucket, not an exact rank.
 
 ### Tranco List
 Produces `tranco_list_kr.json`:
