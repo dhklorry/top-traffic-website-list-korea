@@ -1,7 +1,7 @@
 {
-  "name": "top-traffic-list-taiwan",
+  "name": "top-traffic-list-korea",
   "version": "1.0.1",
-  "description": "從多個來源抓取台灣網站流量排名清單",
+  "description": "Toolkit for fetching and merging South Korea website traffic rankings",
   "scripts": {
     "tranco": "node fetch-tranco.js",
     "cloudflare": "node fetch-cloudflare.js",
@@ -11,7 +11,7 @@
     "merge": "node merge-lists.js"
   },
   "author": "Irvin Chen",
-  "license": "CC BY-NC-ND-4.0",
+  "license": "CC0-1.0",
   "dependencies": {
     "adm-zip": "^0.5.10",
     "dotenv": "^17.2.3"

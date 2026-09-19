@@ -134,11 +134,9 @@ Merges all lists into `merged_lists_kr.json`.
 
 ## 📜 License
 
-During the ISIF research period (through December 31, 2026), this project is licensed under [CC BY-NC-ND 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+This project is dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/), to the extent permitted by law.
 
-After December 31, 2026, data and scripts will be released into the Public Domain. For uses beyond CC BY-NC-ND 4.0 during the research period, contact Irvin Chen (Open Culture Foundation; ORCID: [https://orcid.org/0009-0002-1059-7130](https://orcid.org/0009-0002-1059-7130)) at irvin@ocf.tw (cc hi@ocf.tw).
-
-See [LICENSE](LICENSE) for full terms and suggested attribution. See also [`CITATION.cff`](CITATION.cff) for machine-readable citation metadata.
+See [LICENSE](LICENSE) for the dedication and legal-code link. See also [`CITATION.cff`](CITATION.cff) for machine-readable citation metadata.
 
 ## 🙏 Acknowledgements
 

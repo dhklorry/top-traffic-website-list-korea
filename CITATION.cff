@@ -1,16 +1,16 @@
 cff-version: 1.2.0
 message: "If you use this software or ranking data, please cite it as below."
-title: "top-traffic-website-list-taiwan"
-abstract: "Toolkit for fetching and merging Taiwan website traffic rankings from Tranco, Cloudflare Radar, Ahrefs, SimilarWeb, and Semrush."
+title: "top-traffic-website-list-korea"
+abstract: "Toolkit for fetching and merging South Korea website traffic rankings from Tranco, Cloudflare Radar, Ahrefs, SimilarWeb, and Semrush."
 authors:
   - family-names: Chen
     given-names: Irvin
     orcid: "https://orcid.org/0009-0002-1059-7130"
     affiliation: "Open Culture Foundation"
     email: "irvin@ocf.tw"
-license: CC-BY-NC-ND-4.0
-repository-code: "https://github.com/irvin/top-traffic-website-list-taiwan"
-url: "https://github.com/irvin/top-traffic-website-list-taiwan"
+license: CC0-1.0
+repository-code: "https://github.com/irvin/top-traffic-website-list-korea"
+url: "https://github.com/irvin/top-traffic-website-list-korea"
 preferred-citation:
   type: report
   title: "When Submarine Cables Go Dark: Understanding and Preparing for the Risks of Taiwan's International Internet Disconnection"
