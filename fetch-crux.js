@@ -85,7 +85,7 @@ ORDER BY rank_bucket, website;
   return { query, rows };
 }
 
-function normalizeRows(rows, month) {
+function normalizeRows(rows) {
   const sitesByHostname = new Map();
 
   for (const row of rows) {
@@ -105,28 +105,23 @@ function normalizeRows(rows, month) {
     if (!website) continue;
 
     const site = {
-      rank: rankBucket,
       website,
-      url: origin.origin,
-      rank_bucket: rankBucket,
-      source: 'Chrome UX Report',
-      country: 'KR',
-      month
+      url: origin.origin
     };
 
     const existing = sitesByHostname.get(website);
     if (
       !existing ||
-      site.rank_bucket < existing.rank_bucket ||
-      (site.rank_bucket === existing.rank_bucket && site.url.startsWith('https://') && !existing.url.startsWith('https://'))
+      rankBucket < existing.rankBucket ||
+      (rankBucket === existing.rankBucket && site.url.startsWith('https://') && !existing.site.url.startsWith('https://'))
     ) {
-      sitesByHostname.set(website, site);
+      sitesByHostname.set(website, { site, rankBucket });
     }
   }
 
-  return Array.from(sitesByHostname.values()).sort((a, b) =>
-    a.rank_bucket - b.rank_bucket || a.website.localeCompare(b.website)
-  );
+  return Array.from(sitesByHostname.values())
+    .sort((a, b) => a.rankBucket - b.rankBucket || a.site.website.localeCompare(b.site.website))
+    .map(entry => entry.site);
 }
 
 async function main() {
@@ -134,7 +129,7 @@ async function main() {
   const bigquery = new BigQuery(options.project ? { projectId: options.project } : {});
   const month = options.month || await findLatestMonth(bigquery);
   const { query, rows } = await queryCrux(bigquery, month, options.limit);
-  const sites = normalizeRows(rows, month);
+  const sites = normalizeRows(rows);
 
   if (sites.length === 0) throw new Error('CrUX query returned no valid rows');
 

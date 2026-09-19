@@ -9,7 +9,7 @@ A toolkit for fetching South Korea website traffic rankings from multiple source
 - [AhrefsTop](https://ahrefstop.com/websites/korea) — Korea organic search traffic top 100
 - [SimilarWeb](https://www.similarweb.com/top-websites/korea-republic-of/) — South Korea website traffic top 50
 - [Semrush](https://www.semrush.com/trending-websites/kr/all) — South Korea website traffic top 100
-- [Google CrUX](https://developer.chrome.com/docs/crux) — 1,000 popular website from South Korea based on Chrome user experience data
+- [Google CrUX](https://developer.chrome.com/docs/crux) — 1,000 popular website origins visited by eligible Chrome users in South Korea
 
 ## 📊 Data sources
 
@@ -120,19 +120,15 @@ lists:
 ```json
 [
   {
-    "rank": 1000,
     "website": "example.com",
-    "url": "https://example.com",
-    "rank_bucket": 1000,
-    "source": "Chrome UX Report",
-    "country": "KR",
-    "month": "202608"
+    "url": "https://example.com"
   }
 ]
 ```
 
-`rank` mirrors `rank_bucket` for compatibility with the merge pipeline. It is
-still a CrUX popularity bucket, not an exact rank.
+The source file only records membership in the South Korea CrUX top-1,000
+bucket. During merge, these entries receive `rank.crux: 1000` for compatibility
+with the existing merged-list schema; this remains a bucket, not an exact rank.
 
 ### Tranco List
 Produces `tranco_list_kr.json`:

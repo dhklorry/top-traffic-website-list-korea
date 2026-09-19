@@ -35,7 +35,8 @@ const FILES = [
     path: 'crux_top_kr.json',
     listName: 'crux',
     domainField: 'website',
-    urlField: 'url'
+    urlField: 'url',
+    rankValue: 1000
   },
   {
     path: 'tranco_list_kr.json',
@@ -124,7 +125,7 @@ function mergeLists() {
 
     for (const item of data) {
       const domain = item[fileConfig.domainField];
-      const rank = item.rank;
+      const rank = fileConfig.rankValue ?? item.rank;
       if (!domain || !Number.isFinite(rank)) continue;
 
       const normalizedWebsite = normalizeWebsite(domain);
