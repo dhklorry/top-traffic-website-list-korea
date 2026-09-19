@@ -1,0 +1,602 @@
+[
+  {
+    "rank": 1,
+    "website": "namu.wiki",
+    "category": "Reference",
+    "search_traffic_K": 58600
+  },
+  {
+    "rank": 2,
+    "website": "naver.com",
+    "category": "Internet & Telecom",
+    "search_traffic_K": 30500
+  },
+  {
+    "rank": 3,
+    "website": "chatgpt.com",
+    "category": "Computers & Electronics",
+    "search_traffic_K": 21300
+  },
+  {
+    "rank": 4,
+    "website": "youtube.com",
+    "category": "Entertainment",
+    "search_traffic_K": 17000
+  },
+  {
+    "rank": 5,
+    "website": "instagram.com",
+    "category": "Online Communities",
+    "search_traffic_K": 8000
+  },
+  {
+    "rank": 6,
+    "website": "google.com",
+    "category": "Internet & Telecom",
+    "search_traffic_K": 7700
+  },
+  {
+    "rank": 7,
+    "website": "wikipedia.org",
+    "category": "Reference",
+    "search_traffic_K": 7600
+  },
+  {
+    "rank": 8,
+    "website": "dcinside.com",
+    "category": "Entertainment",
+    "search_traffic_K": 5200
+  },
+  {
+    "rank": 9,
+    "website": "tistory.com",
+    "category": "Internet & Telecom",
+    "search_traffic_K": 4600
+  },
+  {
+    "rank": 10,
+    "website": "daum.net",
+    "category": "Internet & Telecom",
+    "search_traffic_K": 4600
+  },
+  {
+    "rank": 11,
+    "website": "canva.com",
+    "category": "Computers & Electronics",
+    "search_traffic_K": 3700
+  },
+  {
+    "rank": 12,
+    "website": "blacktoonurl.org",
+    "category": "Reference",
+    "search_traffic_K": 3500
+  },
+  {
+    "rank": 13,
+    "website": "op.gg",
+    "category": "Games",
+    "search_traffic_K": 3400
+  },
+  {
+    "rank": 14,
+    "website": "apple.com",
+    "category": "Computers & Electronics",
+    "search_traffic_K": 3300
+  },
+  {
+    "rank": 15,
+    "website": "openai.com",
+    "category": "Science",
+    "search_traffic_K": 3200
+  },
+  {
+    "rank": 16,
+    "website": "reddit.com",
+    "category": "Online Communities",
+    "search_traffic_K": 2800
+  },
+  {
+    "rank": 17,
+    "website": "investing.com",
+    "category": "Finance",
+    "search_traffic_K": 2600
+  },
+  {
+    "rank": 18,
+    "website": "coupang.com",
+    "category": "Shopping",
+    "search_traffic_K": 2100
+  },
+  {
+    "rank": 19,
+    "website": "newtoki1.org",
+    "category": "Reference",
+    "search_traffic_K": 2100
+  },
+  {
+    "rank": 20,
+    "website": "x.com",
+    "category": "Online Communities",
+    "search_traffic_K": 2000
+  },
+  {
+    "rank": 21,
+    "website": "tiktok.com",
+    "category": "Online Communities",
+    "search_traffic_K": 2000
+  },
+  {
+    "rank": 22,
+    "website": "pinterest.com",
+    "category": "Hobbies & Leisure",
+    "search_traffic_K": 2000
+  },
+  {
+    "rank": 23,
+    "website": "microsoft.com",
+    "category": "Computers & Electronics",
+    "search_traffic_K": 1900
+  },
+  {
+    "rank": 24,
+    "website": "facebook.com",
+    "category": "Online Communities",
+    "search_traffic_K": 1800
+  },
+  {
+    "rank": 25,
+    "website": "fmkorea.com",
+    "category": "Entertainment",
+    "search_traffic_K": 1600
+  },
+  {
+    "rank": 26,
+    "website": "danawa.com",
+    "category": "Shopping",
+    "search_traffic_K": 1600
+  },
+  {
+    "rank": 27,
+    "website": "roblox.com",
+    "category": "Games",
+    "search_traffic_K": 1300
+  },
+  {
+    "rank": 28,
+    "website": "arca.live",
+    "category": "Online Communities",
+    "search_traffic_K": 1300
+  },
+  {
+    "rank": 29,
+    "website": "tvwiki1.org",
+    "category": "Reference",
+    "search_traffic_K": 1200
+  },
+  {
+    "rank": 30,
+    "website": "adobe.com",
+    "category": "Computers & Electronics",
+    "search_traffic_K": 1200
+  },
+  {
+    "rank": 31,
+    "website": "lolchess.gg",
+    "category": "Games",
+    "search_traffic_K": 1200
+  },
+  {
+    "rank": 32,
+    "website": "jobkorea.co.kr",
+    "category": "Jobs & Education",
+    "search_traffic_K": 1200
+  },
+  {
+    "rank": 33,
+    "website": "yamimoto.com",
+    "category": "Reference",
+    "search_traffic_K": 1100
+  },
+  {
+    "rank": 34,
+    "website": "deeplol.gg",
+    "category": "Games",
+    "search_traffic_K": 1000
+  },
+  {
+    "rank": 35,
+    "website": "주소랜드.com",
+    "category": "Reference",
+    "search_traffic_K": 1000
+  },
+  {
+    "rank": 36,
+    "website": "amazon.com",
+    "category": "Shopping",
+    "search_traffic_K": 1000
+  },
+  {
+    "rank": 37,
+    "website": "aliexpress.com",
+    "category": "Shopping",
+    "search_traffic_K": 1000
+  },
+  {
+    "rank": 38,
+    "website": "notion.com",
+    "category": "Business & Industrial",
+    "search_traffic_K": 1000
+  },
+  {
+    "rank": 39,
+    "website": "alphasquare.co.kr",
+    "category": "Business & Industrial",
+    "search_traffic_K": 1000
+  },
+  {
+    "rank": 40,
+    "website": "tving.com",
+    "category": "Entertainment",
+    "search_traffic_K": 996
+  },
+  {
+    "rank": 41,
+    "website": "chosun.com",
+    "category": "News",
+    "search_traffic_K": 990
+  },
+  {
+    "rank": 42,
+    "website": "inven.co.kr",
+    "category": "Games",
+    "search_traffic_K": 987
+  },
+  {
+    "rank": 43,
+    "website": "nate.com",
+    "category": "Online Communities",
+    "search_traffic_K": 977
+  },
+  {
+    "rank": 44,
+    "website": "hulk24.com",
+    "category": null,
+    "search_traffic_K": 948
+  },
+  {
+    "rank": 45,
+    "website": "weather.go.kr",
+    "category": "Science",
+    "search_traffic_K": 934
+  },
+  {
+    "rank": 46,
+    "website": "kyobobook.co.kr",
+    "category": "Books & Literature",
+    "search_traffic_K": 914
+  },
+  {
+    "rank": 47,
+    "website": "saramin.co.kr",
+    "category": "Jobs & Education",
+    "search_traffic_K": 894
+  },
+  {
+    "rank": 48,
+    "website": "netflix.com",
+    "category": "Entertainment",
+    "search_traffic_K": 888
+  },
+  {
+    "rank": 49,
+    "website": "discord.com",
+    "category": "Games",
+    "search_traffic_K": 849
+  },
+  {
+    "rank": 50,
+    "website": "야코레드바로가기.com",
+    "category": "Reference",
+    "search_traffic_K": 843
+  },
+  {
+    "rank": 51,
+    "website": "tossinvest.com",
+    "category": "Finance",
+    "search_traffic_K": 821
+  },
+  {
+    "rank": 52,
+    "website": "nara-speller.co.kr",
+    "category": "Entertainment",
+    "search_traffic_K": 815
+  },
+  {
+    "rank": 53,
+    "website": "wise.com",
+    "category": "Finance",
+    "search_traffic_K": 807
+  },
+  {
+    "rank": 54,
+    "website": "korean.net",
+    "category": "Reference",
+    "search_traffic_K": 802
+  },
+  {
+    "rank": 55,
+    "website": "github.com",
+    "category": "Computers & Electronics",
+    "search_traffic_K": 798
+  },
+  {
+    "rank": 56,
+    "website": "ikasa.com.pl",
+    "category": "Reference",
+    "search_traffic_K": 793
+  },
+  {
+    "rank": 57,
+    "website": "tvmon1.com",
+    "category": "Reference",
+    "search_traffic_K": 787
+  },
+  {
+    "rank": 58,
+    "website": "claude.ai",
+    "category": "Computers & Electronics",
+    "search_traffic_K": 766
+  },
+  {
+    "rank": 59,
+    "website": "perplexity.ai",
+    "category": "Computers & Electronics",
+    "search_traffic_K": 761
+  },
+  {
+    "rank": 60,
+    "website": "brunch.co.kr",
+    "category": "Entertainment",
+    "search_traffic_K": 749
+  },
+  {
+    "rank": 61,
+    "website": "deepai.org",
+    "category": "Computers & Electronics",
+    "search_traffic_K": 735
+  },
+  {
+    "rank": 62,
+    "website": "samsung.com",
+    "category": "Computers & Electronics",
+    "search_traffic_K": 682
+  },
+  {
+    "rank": 63,
+    "website": "nexon.com",
+    "category": "Games",
+    "search_traffic_K": 679
+  },
+  {
+    "rank": 64,
+    "website": "ilovepdf.com",
+    "category": "Computers & Electronics",
+    "search_traffic_K": 675
+  },
+  {
+    "rank": 65,
+    "website": "a14c.com",
+    "category": "Reference",
+    "search_traffic_K": 672
+  },
+  {
+    "rank": 66,
+    "website": "여기여주소.net",
+    "category": "Reference",
+    "search_traffic_K": 669
+  },
+  {
+    "rank": 67,
+    "website": "anilife.app",
+    "category": "Health",
+    "search_traffic_K": 660
+  },
+  {
+    "rank": 68,
+    "website": "clien.net",
+    "category": "Computers & Electronics",
+    "search_traffic_K": 658
+  },
+  {
+    "rank": 69,
+    "website": "cloudflare.com",
+    "category": "Internet & Telecom",
+    "search_traffic_K": 657
+  },
+  {
+    "rank": 70,
+    "website": "accuweather.com",
+    "category": "Science",
+    "search_traffic_K": 632
+  },
+  {
+    "rank": 71,
+    "website": "lawtalknews.co.kr",
+    "category": "Law & Government",
+    "search_traffic_K": 628
+  },
+  {
+    "rank": 72,
+    "website": "yna.co.kr",
+    "category": "Entertainment",
+    "search_traffic_K": 622
+  },
+  {
+    "rank": 73,
+    "website": "kakao.com",
+    "category": "Internet & Telecom",
+    "search_traffic_K": 615
+  },
+  {
+    "rank": 74,
+    "website": "hyundai.com",
+    "category": "Vehicles",
+    "search_traffic_K": 612
+  },
+  {
+    "rank": 75,
+    "website": "sooplive.com",
+    "category": "Reference",
+    "search_traffic_K": 607
+  },
+  {
+    "rank": 76,
+    "website": "poki.com",
+    "category": "Games",
+    "search_traffic_K": 605
+  },
+  {
+    "rank": 77,
+    "website": "postype.com",
+    "category": "Entertainment",
+    "search_traffic_K": 602
+  },
+  {
+    "rank": 78,
+    "website": "주소킹바로가기.net",
+    "category": "Reference",
+    "search_traffic_K": 574
+  },
+  {
+    "rank": 79,
+    "website": "interpark.com",
+    "category": "Shopping",
+    "search_traffic_K": 552
+  },
+  {
+    "rank": 80,
+    "website": "flashscore.co.kr",
+    "category": "Sports",
+    "search_traffic_K": 541
+  },
+  {
+    "rank": 81,
+    "website": "hix.ai",
+    "category": "Computers & Electronics",
+    "search_traffic_K": 510
+  },
+  {
+    "rank": 82,
+    "website": "trip.com",
+    "category": "Travel",
+    "search_traffic_K": 501
+  },
+  {
+    "rank": 83,
+    "website": "donga.com",
+    "category": "News",
+    "search_traffic_K": 501
+  },
+  {
+    "rank": 84,
+    "website": "kbstar.com",
+    "category": "Computers & Electronics",
+    "search_traffic_K": 492
+  },
+  {
+    "rank": 85,
+    "website": "agoda.com",
+    "category": "Travel",
+    "search_traffic_K": 492
+  },
+  {
+    "rank": 86,
+    "website": "newlawyer.co.kr",
+    "category": "Reference",
+    "search_traffic_K": 491
+  },
+  {
+    "rank": 87,
+    "website": "joongang.co.kr",
+    "category": "Entertainment",
+    "search_traffic_K": 486
+  },
+  {
+    "rank": 88,
+    "website": "tradingview.com",
+    "category": "Finance",
+    "search_traffic_K": 485
+  },
+  {
+    "rank": 89,
+    "website": "savefrom.net",
+    "category": "Internet & Telecom",
+    "search_traffic_K": 467
+  },
+  {
+    "rank": 90,
+    "website": "yhotto.co.kr",
+    "category": "Reference",
+    "search_traffic_K": 466
+  },
+  {
+    "rank": 91,
+    "website": "gov.kr",
+    "category": "Law & Government",
+    "search_traffic_K": 456
+  },
+  {
+    "rank": 92,
+    "website": "yahoo.com",
+    "category": "News",
+    "search_traffic_K": 455
+  },
+  {
+    "rank": 93,
+    "website": "ssg.com",
+    "category": "Entertainment",
+    "search_traffic_K": 448
+  },
+  {
+    "rank": 94,
+    "website": "business-humanrights.org",
+    "category": "People & Society",
+    "search_traffic_K": 441
+  },
+  {
+    "rank": 95,
+    "website": "theqoo.net",
+    "category": "Entertainment",
+    "search_traffic_K": 439
+  },
+  {
+    "rank": 96,
+    "website": "figma.com",
+    "category": "Computers & Electronics",
+    "search_traffic_K": 433
+  },
+  {
+    "rank": 97,
+    "website": "ruliweb.com",
+    "category": "Games",
+    "search_traffic_K": 431
+  },
+  {
+    "rank": 98,
+    "website": "skyscanner.co.kr",
+    "category": "Travel",
+    "search_traffic_K": 429
+  },
+  {
+    "rank": 99,
+    "website": "bugs.co.kr",
+    "category": "Entertainment",
+    "search_traffic_K": 428
+  },
+  {
+    "rank": 100,
+    "website": "ibm.com",
+    "category": "Business & Industrial",
+    "search_traffic_K": 426
+  }
+]

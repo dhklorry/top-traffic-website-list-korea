@@ -11,7 +11,7 @@ const https = require('https');
 const fs = require('fs');
 const { URL } = require('url');
 
-const AHREFS_URL = 'https://ahrefstop.com/websites/south-korea';
+const AHREFS_URL = 'https://ahrefstop.com/websites/korea';
 const OUTPUT_FILE = 'ahrefs_top_kr.json';
 
 const httpsAgent = new https.Agent({
@@ -117,7 +117,7 @@ function parseTable(html) {
     if (!websiteMatch) continue;
     const website = websiteMatch[2].trim();
 
-    const categoryMatch = trContent.match(/<a[^>]*href="\/websites\/taiwan\/[^"]*"[^>]*>([^<]+)<\/a>/);
+    const categoryMatch = trContent.match(/<a[^>]*href="\/websites\/korea\/[^"]*"[^>]*>([^<]+)<\/a>/);
     const category = categoryMatch ? decodeHtmlEntities(categoryMatch[1].trim()) : '';
 
     const trafficMatch = trContent.match(/<td[^>]*>[\s\S]*?<span>([\d.]+[KMkm]?)<\/span>/);
