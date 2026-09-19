@@ -51,14 +51,30 @@ npm run <tranco|cloudflare|ahrefs|similarweb|semrush|crux|merge>
 
 ### Chrome UX Report
 
-The CrUX fetcher uses the Google Cloud BigQuery CLI (`bq`) to query the public
-`chrome-ux-report.country_kr` dataset. Authenticate `bq` first and provide a
-Google Cloud project for billing, either with `GCLOUD_PROJECT`/`GCP_PROJECT` or
-with `--project`:
+The CrUX fetcher uses the official `@google-cloud/bigquery` Node.js package to
+query the public `chrome-ux-report.country_kr` dataset. The package is
+installed by `npm install`; the Google Cloud CLI (`gcloud`) is not an npm
+dependency and must be installed separately if you use local user login.
+
+On macOS, install the Google Cloud CLI with Homebrew:
+
+```bash
+brew install --cask google-cloud-sdk
+```
+
+Then authenticate and provide a Google Cloud project for billing:
 
 ```bash
 gcloud auth application-default login
-node fetch-crux.js --project your-gcp-project
+export GCLOUD_PROJECT="your-gcp-project"
+npm run crux
+```
+
+Alternatively, use a service-account credential without installing `gcloud`:
+
+```bash
+export GOOGLE_APPLICATION_CREDENTIALS="/path/to/service-account.json"
+npm run crux -- --project your-gcp-project
 ```
 
 The script automatically selects the newest `YYYYMM` table and writes
