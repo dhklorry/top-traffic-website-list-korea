@@ -210,9 +210,8 @@ Produces `semrush_top_kr.json`:
 ```
 
 ### Merge
-Merges all six lists into `merged_lists_kr.json`. CrUX contributes to the
-number of South Korea-specific sources associated with a site, but its
-popularity bucket is excluded from the exact-rank average used for sorting.
+Merges all six source lists into `merged_lists_kr.json`. CrUX is counted as a
+source match, but its popularity bucket is excluded from exact-rank averaging.
 
 ## 📜 License
 
