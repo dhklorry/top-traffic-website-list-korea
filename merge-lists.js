@@ -4,7 +4,7 @@
  * Usage:
  *   node merge-lists.js
  *
- * Reads rank data from five JSON files and writes merged_lists_tw.json.
+ * Reads rank data from five JSON files and writes merged_lists_kr.json.
  */
 
 const fs = require('fs');
@@ -12,34 +12,34 @@ const path = require('path');
 
 const FILES = [
   {
-    path: 'ahrefs_top_tw.json',
+    path: 'ahrefs_top_kr.json',
     listName: 'ahrefs',
     domainField: 'website'
   },
   {
-    path: 'cloudflare_radar_tw.json',
+    path: 'cloudflare_radar_kr.json',
     listName: 'cloudflare',
     domainField: 'domain'
   },
   {
-    path: 'similarweb_top_taiwan.json',
+    path: 'similarweb_top_korea-republic-of.json',
     listName: 'similarweb',
     domainField: 'website'
   },
   {
-    path: 'semrush_top_tw.json',
+    path: 'semrush_top_kr.json',
     listName: 'semrush',
     domainField: 'domain_name'
   },
   {
-    path: 'tranco_list_tw.json',
+    path: 'tranco_list_kr.json',
     listName: 'tranco',
     domainField: 'domain',
     urlField: 'url'
   }
 ];
 
-const OUTPUT_FILE = 'merged_lists_tw.json';
+const OUTPUT_FILE = 'merged_lists_kr.json';
 
 /**
  * Normalize hostname: strip www. prefix, keep other subdomains
