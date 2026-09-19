@@ -1,0 +1,502 @@
+[
+  {
+    "rank": 1,
+    "domain_name": "youtube.com",
+    "total_traffic": 4650855381
+  },
+  {
+    "rank": 2,
+    "domain_name": "google.com",
+    "total_traffic": 1533160959
+  },
+  {
+    "rank": 3,
+    "domain_name": "naver.com",
+    "total_traffic": 824129817
+  },
+  {
+    "rank": 4,
+    "domain_name": "x.com",
+    "total_traffic": 117511487
+  },
+  {
+    "rank": 5,
+    "domain_name": "chatgpt.com",
+    "total_traffic": 109341894
+  },
+  {
+    "rank": 6,
+    "domain_name": "instagram.com",
+    "total_traffic": 100582917
+  },
+  {
+    "rank": 7,
+    "domain_name": "weather.com",
+    "total_traffic": 93707599
+  },
+  {
+    "rank": 8,
+    "domain_name": "enrtx.com",
+    "total_traffic": 74597876
+  },
+  {
+    "rank": 9,
+    "domain_name": "missav123.com",
+    "total_traffic": 73381720
+  },
+  {
+    "rank": 10,
+    "domain_name": "tistory.com",
+    "total_traffic": 59161098
+  },
+  {
+    "rank": 11,
+    "domain_name": "facebook.com",
+    "total_traffic": 58389491
+  },
+  {
+    "rank": 12,
+    "domain_name": "msn.com",
+    "total_traffic": 56838036
+  },
+  {
+    "rank": 13,
+    "domain_name": "inven.co.kr",
+    "total_traffic": 51647924
+  },
+  {
+    "rank": 14,
+    "domain_name": "yasyadong02.tv",
+    "total_traffic": 49654353
+  },
+  {
+    "rank": 15,
+    "domain_name": "nexon.com",
+    "total_traffic": 46817525
+  },
+  {
+    "rank": 16,
+    "domain_name": "aliexpress.com",
+    "total_traffic": 45789194
+  },
+  {
+    "rank": 17,
+    "domain_name": "av19t.com",
+    "total_traffic": 43299775
+  },
+  {
+    "rank": 18,
+    "domain_name": "reddit.com",
+    "total_traffic": 41546807
+  },
+  {
+    "rank": 19,
+    "domain_name": "kissjav.li",
+    "total_traffic": 40934573
+  },
+  {
+    "rank": 20,
+    "domain_name": "donga.com",
+    "total_traffic": 40092837
+  },
+  {
+    "rank": 21,
+    "domain_name": "tvmon1.com",
+    "total_traffic": 37489631
+  },
+  {
+    "rank": 22,
+    "domain_name": "nate.com",
+    "total_traffic": 37329872
+  },
+  {
+    "rank": 23,
+    "domain_name": "abr.ge",
+    "total_traffic": 35028614
+  },
+  {
+    "rank": 24,
+    "domain_name": "appier.net",
+    "total_traffic": 34099546
+  },
+  {
+    "rank": 25,
+    "domain_name": "pornhub.com",
+    "total_traffic": 32575155
+  },
+  {
+    "rank": 26,
+    "domain_name": "dogdrip.net",
+    "total_traffic": 32490774
+  },
+  {
+    "rank": 27,
+    "domain_name": "kone.gg",
+    "total_traffic": 31701294
+  },
+  {
+    "rank": 28,
+    "domain_name": "gmarket.co.kr",
+    "total_traffic": 31560151
+  },
+  {
+    "rank": 29,
+    "domain_name": "blacktoon418.com",
+    "total_traffic": 30447015
+  },
+  {
+    "rank": 30,
+    "domain_name": "gmarket.com",
+    "total_traffic": 29921123
+  },
+  {
+    "rank": 31,
+    "domain_name": "theqoo.net",
+    "total_traffic": 29538015
+  },
+  {
+    "rank": 32,
+    "domain_name": "buzzvil.com",
+    "total_traffic": 28926321
+  },
+  {
+    "rank": 33,
+    "domain_name": "twidouga.net",
+    "total_traffic": 27618804
+  },
+  {
+    "rank": 34,
+    "domain_name": "temu.com",
+    "total_traffic": 27425510
+  },
+  {
+    "rank": 35,
+    "domain_name": "ppomppu.co.kr",
+    "total_traffic": 27334202
+  },
+  {
+    "rank": 36,
+    "domain_name": "adison.co",
+    "total_traffic": 27150612
+  },
+  {
+    "rank": 37,
+    "domain_name": "netflix.com",
+    "total_traffic": 25695592
+  },
+  {
+    "rank": 38,
+    "domain_name": "go.link",
+    "total_traffic": 25683372
+  },
+  {
+    "rank": 39,
+    "domain_name": "bing.com",
+    "total_traffic": 25670645
+  },
+  {
+    "rank": 40,
+    "domain_name": "openai.com",
+    "total_traffic": 25623655
+  },
+  {
+    "rank": 41,
+    "domain_name": "newtoki1.org",
+    "total_traffic": 24209181
+  },
+  {
+    "rank": 42,
+    "domain_name": "nimi.wiki",
+    "total_traffic": 23824803
+  },
+  {
+    "rank": 43,
+    "domain_name": "chosun.com",
+    "total_traffic": 21379059
+  },
+  {
+    "rank": 44,
+    "domain_name": "sooplive.com",
+    "total_traffic": 21350914
+  },
+  {
+    "rank": 45,
+    "domain_name": "google.co.kr",
+    "total_traffic": 21280125
+  },
+  {
+    "rank": 46,
+    "domain_name": "samsung.com",
+    "total_traffic": 21136206
+  },
+  {
+    "rank": 47,
+    "domain_name": "claude.ai",
+    "total_traffic": 20829501
+  },
+  {
+    "rank": 48,
+    "domain_name": "avsee.ru",
+    "total_traffic": 20757775
+  },
+  {
+    "rank": 49,
+    "domain_name": "dhlottery.co.kr",
+    "total_traffic": 19869454
+  },
+  {
+    "rank": 50,
+    "domain_name": "k-hentai.org",
+    "total_traffic": 19741001
+  },
+  {
+    "rank": 51,
+    "domain_name": "avsee.is",
+    "total_traffic": 19295540
+  },
+  {
+    "rank": 52,
+    "domain_name": "avdbs.com",
+    "total_traffic": 18749562
+  },
+  {
+    "rank": 53,
+    "domain_name": "yandex.com",
+    "total_traffic": 18366635
+  },
+  {
+    "rank": 54,
+    "domain_name": "humoruniv.com",
+    "total_traffic": 18170554
+  },
+  {
+    "rank": 55,
+    "domain_name": "wikipedia.org",
+    "total_traffic": 17898326
+  },
+  {
+    "rank": 56,
+    "domain_name": "glamov.com",
+    "total_traffic": 17782559
+  },
+  {
+    "rank": 57,
+    "domain_name": "njavtv.com",
+    "total_traffic": 17677299
+  },
+  {
+    "rank": 58,
+    "domain_name": "ohou.se",
+    "total_traffic": 17626850
+  },
+  {
+    "rank": 59,
+    "domain_name": "tiktok.com",
+    "total_traffic": 17355179
+  },
+  {
+    "rank": 60,
+    "domain_name": "kgirls.net",
+    "total_traffic": 17297969
+  },
+  {
+    "rank": 61,
+    "domain_name": "spotv24.com",
+    "total_traffic": 16295489
+  },
+  {
+    "rank": 62,
+    "domain_name": "xvideos.com",
+    "total_traffic": 15750510
+  },
+  {
+    "rank": 63,
+    "domain_name": "tckopke.com",
+    "total_traffic": 15609897
+  },
+  {
+    "rank": 64,
+    "domain_name": "lotteon.com",
+    "total_traffic": 15313879
+  },
+  {
+    "rank": 65,
+    "domain_name": "zeta-ai.io",
+    "total_traffic": 15061358
+  },
+  {
+    "rank": 66,
+    "domain_name": "anilife.app",
+    "total_traffic": 15015282
+  },
+  {
+    "rank": 67,
+    "domain_name": "pinterest.com",
+    "total_traffic": 14812900
+  },
+  {
+    "rank": 68,
+    "domain_name": "op.gg",
+    "total_traffic": 14790994
+  },
+  {
+    "rank": 69,
+    "domain_name": "github.com",
+    "total_traffic": 14379864
+  },
+  {
+    "rank": 70,
+    "domain_name": "pawchive.pw",
+    "total_traffic": 14199503
+  },
+  {
+    "rank": 71,
+    "domain_name": "yogiyo.co.kr",
+    "total_traffic": 14030293
+  },
+  {
+    "rank": 72,
+    "domain_name": "oliveyoung.co.kr",
+    "total_traffic": 14016562
+  },
+  {
+    "rank": 73,
+    "domain_name": "clien.net",
+    "total_traffic": 13960389
+  },
+  {
+    "rank": 74,
+    "domain_name": "trip.com",
+    "total_traffic": 13583151
+  },
+  {
+    "rank": 75,
+    "domain_name": "weather.go.kr",
+    "total_traffic": 13460202
+  },
+  {
+    "rank": 76,
+    "domain_name": "danawa.com",
+    "total_traffic": 13333152
+  },
+  {
+    "rank": 77,
+    "domain_name": "blacktoon420.com",
+    "total_traffic": 13317589
+  },
+  {
+    "rank": 78,
+    "domain_name": "topgirl.co",
+    "total_traffic": 13133531
+  },
+  {
+    "rank": 79,
+    "domain_name": "lge.co.kr",
+    "total_traffic": 12991623
+  },
+  {
+    "rank": 80,
+    "domain_name": "mediacategory.com",
+    "total_traffic": 12913342
+  },
+  {
+    "rank": 81,
+    "domain_name": "bobaedream.co.kr",
+    "total_traffic": 12568479
+  },
+  {
+    "rank": 82,
+    "domain_name": "tvwiki47.net",
+    "total_traffic": 12415007
+  },
+  {
+    "rank": 83,
+    "domain_name": "discord.com",
+    "total_traffic": 12316285
+  },
+  {
+    "rank": 84,
+    "domain_name": "tdgall.com",
+    "total_traffic": 12086168
+  },
+  {
+    "rank": 85,
+    "domain_name": "lguplus.com",
+    "total_traffic": 11839657
+  },
+  {
+    "rank": 86,
+    "domain_name": "fomos.kr",
+    "total_traffic": 11743165
+  },
+  {
+    "rank": 87,
+    "domain_name": "11st.co.kr",
+    "total_traffic": 11741292
+  },
+  {
+    "rank": 88,
+    "domain_name": "linkkf.tv",
+    "total_traffic": 11602088
+  },
+  {
+    "rank": 89,
+    "domain_name": "toss.im",
+    "total_traffic": 11598246
+  },
+  {
+    "rank": 90,
+    "domain_name": "dblife01.com",
+    "total_traffic": 11587489
+  },
+  {
+    "rank": 91,
+    "domain_name": "kurly.com",
+    "total_traffic": 11582617
+  },
+  {
+    "rank": 92,
+    "domain_name": "ssg.com",
+    "total_traffic": 11448542
+  },
+  {
+    "rank": 93,
+    "domain_name": "kakaopay.com",
+    "total_traffic": 11371816
+  },
+  {
+    "rank": 94,
+    "domain_name": "kissjav.com",
+    "total_traffic": 11352113
+  },
+  {
+    "rank": 95,
+    "domain_name": "hankyung.com",
+    "total_traffic": 11175744
+  },
+  {
+    "rank": 96,
+    "domain_name": "ydparty06.tv",
+    "total_traffic": 11173587
+  },
+  {
+    "rank": 97,
+    "domain_name": "apple.com",
+    "total_traffic": 11136964
+  },
+  {
+    "rank": 98,
+    "domain_name": "sbxh9.com",
+    "total_traffic": 11126238
+  },
+  {
+    "rank": 99,
+    "domain_name": "blacktoon417.com",
+    "total_traffic": 11098526
+  },
+  {
+    "rank": 100,
+    "domain_name": "toki31.com",
+    "total_traffic": 11057311
+  }
+]

@@ -1,14 +1,14 @@
 /**
- * Taiwan site ranking fetcher (Tranco List)
+ * South Korea site ranking fetcher (Tranco List)
  *
- * Downloads the Tranco top-1m list, filters .tw domains, writes JSON.
+ * Downloads the Tranco top-1m list, filters .kr domains, writes JSON.
  *
  * Usage:
  *   1. Node.js v16+
  *   2. npm install adm-zip
  *   3. node fetch-tranco.js
  *
- * Output: tranco_list_tw.json — [{ rank, domain, url }, ...]
+ * Output: tranco_list_kr.json — [{ rank, domain, url }, ...]
  * Source: https://tranco-list.eu/
  */
 
@@ -17,7 +17,7 @@ const fs = require('fs');
 const AdmZip = require('adm-zip');
 
 const TRANCO_URL = 'https://tranco-list.eu/top-1m-incl-subdomains.csv.zip';
-const OUTPUT_FILE = 'tranco_list_tw.json';
+const OUTPUT_FILE = 'tranco_list_kr.json';
 
 const httpsAgent = new https.Agent({
   rejectUnauthorized: false
@@ -67,7 +67,7 @@ async function main() {
     const csvText = csvEntry.getData().toString('utf8');
 
     const lines = csvText.split('\n');
-    const twSites = [];
+    const krSites = [];
 
     for (const line of lines) {
       const trimmed = line.trim();
@@ -81,8 +81,8 @@ async function main() {
 
       if (!Number.isFinite(rank)) continue;
 
-      if (domain.endsWith('.tw')) {
-        twSites.push({
+      if (domain.endsWith('.kr')) {
+        krSites.push({
           rank,
           domain,
           url: `https://${domain}`,
@@ -90,14 +90,14 @@ async function main() {
       }
     }
 
-    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(twSites, null, 2));
+    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(krSites, null, 2));
 
     console.log('------------------------------------------------');
     console.log('Done.');
     console.log(`Source lines (incl. blanks): ${lines.length}`);
-    console.log(`.tw sites: ${twSites.length}`);
+    console.log(`.kr sites: ${krSites.length}`);
     console.log(`Wrote: ${OUTPUT_FILE}`);
-    console.log('First 5:', twSites.slice(0, 5));
+    console.log('First 5:', krSites.slice(0, 5));
   } catch (err) {
     console.error('Error:', err);
   }

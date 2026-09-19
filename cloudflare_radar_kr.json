@@ -1,0 +1,1357 @@
+[
+  {
+    "rank": 1,
+    "domain": "google.com",
+    "categories": [
+      {
+        "id": 145,
+        "name": "Search Engines",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 2,
+    "domain": "googleapis.com",
+    "categories": [
+      {
+        "id": 109,
+        "name": "Information Technology",
+        "superCategoryId": 26
+      },
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 3,
+    "domain": "naver.com",
+    "categories": [
+      {
+        "id": 123,
+        "name": "News, Portal & Search",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 4,
+    "domain": "gstatic.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 5,
+    "domain": "microsoft.com",
+    "categories": [
+      {
+        "id": 109,
+        "name": "Information Technology",
+        "superCategoryId": 26
+      },
+      {
+        "id": 75,
+        "name": "Business",
+        "superCategoryId": 3
+      }
+    ]
+  },
+  {
+    "rank": 6,
+    "domain": "facebook.com",
+    "categories": [
+      {
+        "id": 149,
+        "name": "Social Networks",
+        "superCategoryId": 24
+      }
+    ]
+  },
+  {
+    "rank": 7,
+    "domain": "pstatic.net",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 8,
+    "domain": "doubleclick.net",
+    "categories": [
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      },
+      {
+        "id": 66,
+        "name": "Advertisements",
+        "superCategoryId": 1
+      }
+    ]
+  },
+  {
+    "rank": 9,
+    "domain": "apple.com",
+    "categories": [
+      {
+        "id": 109,
+        "name": "Information Technology",
+        "superCategoryId": 26
+      },
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 10,
+    "domain": "cloudflare.com",
+    "categories": [
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 11,
+    "domain": "chatgpt.com",
+    "categories": [
+      {
+        "id": 184,
+        "name": "Artificial Intelligence",
+        "superCategoryId": 26
+      },
+      {
+        "id": 77,
+        "name": "Chat",
+        "superCategoryId": 12
+      }
+    ]
+  },
+  {
+    "rank": 12,
+    "domain": "googlevideo.com",
+    "categories": [
+      {
+        "id": 145,
+        "name": "Search Engines",
+        "superCategoryId": 26
+      },
+      {
+        "id": 164,
+        "name": "Video Streaming",
+        "superCategoryId": 7
+      }
+    ]
+  },
+  {
+    "rank": 13,
+    "domain": "openai.com",
+    "categories": [
+      {
+        "id": 184,
+        "name": "Artificial Intelligence",
+        "superCategoryId": 26
+      },
+      {
+        "id": 77,
+        "name": "Chat",
+        "superCategoryId": 12
+      },
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 14,
+    "domain": "criteo.com",
+    "categories": [
+      {
+        "id": 75,
+        "name": "Business",
+        "superCategoryId": 3
+      },
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      }
+    ]
+  },
+  {
+    "rank": 15,
+    "domain": "kakao.com",
+    "categories": [
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 16,
+    "domain": "amazonaws.com",
+    "categories": [
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 17,
+    "domain": "youtube.com",
+    "categories": [
+      {
+        "id": 164,
+        "name": "Video Streaming",
+        "superCategoryId": 7
+      }
+    ]
+  },
+  {
+    "rank": 18,
+    "domain": "instagram.com",
+    "categories": [
+      {
+        "id": 149,
+        "name": "Social Networks",
+        "superCategoryId": 24
+      }
+    ]
+  },
+  {
+    "rank": 19,
+    "domain": "googletagmanager.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      },
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      }
+    ]
+  },
+  {
+    "rank": 20,
+    "domain": "bing.com",
+    "categories": [
+      {
+        "id": 145,
+        "name": "Search Engines",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 21,
+    "domain": "akadns.net",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 22,
+    "domain": "kakaocdn.net",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 23,
+    "domain": "googlesyndication.com",
+    "categories": [
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      },
+      {
+        "id": 145,
+        "name": "Search Engines",
+        "superCategoryId": 26
+      },
+      {
+        "id": 66,
+        "name": "Advertisements",
+        "superCategoryId": 1
+      }
+    ]
+  },
+  {
+    "rank": 24,
+    "domain": "toss.im",
+    "categories": [
+      {
+        "id": 185,
+        "name": "Personal Finance",
+        "superCategoryId": 3
+      }
+    ]
+  },
+  {
+    "rank": 25,
+    "domain": "google.co.kr",
+    "categories": [
+      {
+        "id": 145,
+        "name": "Search Engines",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 26,
+    "domain": "apple-dns.net",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 27,
+    "domain": "aaplimg.com",
+    "categories": [
+      {
+        "id": 109,
+        "name": "Information Technology",
+        "superCategoryId": 26
+      },
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      },
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 28,
+    "domain": "cloudflare-dns.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 29,
+    "domain": "facebook.net",
+    "categories": [
+      {
+        "id": 149,
+        "name": "Social Networks",
+        "superCategoryId": 24
+      }
+    ]
+  },
+  {
+    "rank": 30,
+    "domain": "googleusercontent.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 31,
+    "domain": "gvt2.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 32,
+    "domain": "gmarket.co.kr",
+    "categories": [
+      {
+        "id": 88,
+        "name": "Ecommerce",
+        "superCategoryId": 22
+      }
+    ]
+  },
+  {
+    "rank": 33,
+    "domain": "icloud.com",
+    "categories": [
+      {
+        "id": 95,
+        "name": "File Sharing",
+        "superCategoryId": 26
+      },
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 34,
+    "domain": "11st.co.kr",
+    "categories": [
+      {
+        "id": 88,
+        "name": "Ecommerce",
+        "superCategoryId": 22
+      }
+    ]
+  },
+  {
+    "rank": 35,
+    "domain": "daum.net",
+    "categories": [
+      {
+        "id": 122,
+        "name": "News & Media",
+        "superCategoryId": 7
+      },
+      {
+        "id": 164,
+        "name": "Video Streaming",
+        "superCategoryId": 7
+      }
+    ]
+  },
+  {
+    "rank": 36,
+    "domain": "gvt1.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 37,
+    "domain": "coupangcdn.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 38,
+    "domain": "coupang.com",
+    "categories": [
+      {
+        "id": 88,
+        "name": "Ecommerce",
+        "superCategoryId": 22
+      }
+    ]
+  },
+  {
+    "rank": 39,
+    "domain": "akamai.net",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 40,
+    "domain": "ytimg.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 41,
+    "domain": "app-analytics-services.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      },
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      }
+    ]
+  },
+  {
+    "rank": 42,
+    "domain": "fbcdn.net",
+    "categories": [
+      {
+        "id": 149,
+        "name": "Social Networks",
+        "superCategoryId": 24
+      }
+    ]
+  },
+  {
+    "rank": 43,
+    "domain": "google-analytics.com",
+    "categories": [
+      {
+        "id": 75,
+        "name": "Business",
+        "superCategoryId": 3
+      },
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      },
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 44,
+    "domain": "office.com",
+    "categories": [
+      {
+        "id": 75,
+        "name": "Business",
+        "superCategoryId": 3
+      }
+    ]
+  },
+  {
+    "rank": 45,
+    "domain": "app-measurement.com",
+    "categories": [
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      },
+      {
+        "id": 69,
+        "name": "APIs",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 46,
+    "domain": "011st.com",
+    "categories": [
+      {
+        "id": 88,
+        "name": "Ecommerce",
+        "superCategoryId": 22
+      }
+    ]
+  },
+  {
+    "rank": 47,
+    "domain": "tiktokv.com",
+    "categories": [
+      {
+        "id": 149,
+        "name": "Social Networks",
+        "superCategoryId": 24
+      },
+      {
+        "id": 164,
+        "name": "Video Streaming",
+        "superCategoryId": 7
+      }
+    ]
+  },
+  {
+    "rank": 48,
+    "domain": "appsflyersdk.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      },
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      },
+      {
+        "id": 69,
+        "name": "APIs",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 49,
+    "domain": "akamaiedge.net",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 50,
+    "domain": "auction.co.kr",
+    "categories": [
+      {
+        "id": 88,
+        "name": "Ecommerce",
+        "superCategoryId": 22
+      }
+    ]
+  },
+  {
+    "rank": 51,
+    "domain": "live.com",
+    "categories": [
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      },
+      {
+        "id": 168,
+        "name": "Webmail",
+        "superCategoryId": 12
+      }
+    ]
+  },
+  {
+    "rank": 52,
+    "domain": "sentry.io",
+    "categories": [
+      {
+        "id": 75,
+        "name": "Business",
+        "superCategoryId": 3
+      },
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      }
+    ]
+  },
+  {
+    "rank": 53,
+    "domain": "msn.com",
+    "categories": [
+      {
+        "id": 122,
+        "name": "News & Media",
+        "superCategoryId": 7
+      }
+    ]
+  },
+  {
+    "rank": 54,
+    "domain": "adtrafficquality.google",
+    "categories": [
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      }
+    ]
+  },
+  {
+    "rank": 55,
+    "domain": "cloudfront.net",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 56,
+    "domain": "run.app",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 57,
+    "domain": "navercorp.com",
+    "categories": [
+      {
+        "id": 122,
+        "name": "News & Media",
+        "superCategoryId": 7
+      }
+    ]
+  },
+  {
+    "rank": 58,
+    "domain": "statsigapi.net",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      },
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      },
+      {
+        "id": 69,
+        "name": "APIs",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 59,
+    "domain": "cdninstagram.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 60,
+    "domain": "pubmatic.com",
+    "categories": [
+      {
+        "id": 75,
+        "name": "Business",
+        "superCategoryId": 3
+      },
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      },
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 61,
+    "domain": "ipify.org",
+    "categories": [
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      },
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 62,
+    "domain": "kgslb.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 63,
+    "domain": "github.com",
+    "categories": [
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 64,
+    "domain": "clarity.ms",
+    "categories": [
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      },
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 65,
+    "domain": "ahnlab.com",
+    "categories": [
+      {
+        "id": 108,
+        "name": "Information Security",
+        "superCategoryId": 12
+      }
+    ]
+  },
+  {
+    "rank": 66,
+    "domain": "rubiconproject.com",
+    "categories": [
+      {
+        "id": 75,
+        "name": "Business",
+        "superCategoryId": 3
+      },
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      },
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 67,
+    "domain": "ipinfo.io",
+    "categories": [
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 68,
+    "domain": "adnxs.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      },
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      }
+    ]
+  },
+  {
+    "rank": 69,
+    "domain": "edgesuite.net",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 70,
+    "domain": "tiktok.com",
+    "categories": [
+      {
+        "id": 149,
+        "name": "Social Networks",
+        "superCategoryId": 24
+      },
+      {
+        "id": 164,
+        "name": "Video Streaming",
+        "superCategoryId": 7
+      }
+    ]
+  },
+  {
+    "rank": 71,
+    "domain": "unpkg.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 72,
+    "domain": "daumcdn.net",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 73,
+    "domain": "tiktokcdn.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      },
+      {
+        "id": 149,
+        "name": "Social Networks",
+        "superCategoryId": 24
+      }
+    ]
+  },
+  {
+    "rank": 74,
+    "domain": "cloud.microsoft",
+    "categories": [
+      {
+        "id": 109,
+        "name": "Information Technology",
+        "superCategoryId": 26
+      },
+      {
+        "id": 75,
+        "name": "Business",
+        "superCategoryId": 3
+      }
+    ]
+  },
+  {
+    "rank": 75,
+    "domain": "ggpht.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 76,
+    "domain": "ip-api.com",
+    "categories": [
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 77,
+    "domain": "criteo.net",
+    "categories": [
+      {
+        "id": 75,
+        "name": "Business",
+        "superCategoryId": 3
+      },
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      }
+    ]
+  },
+  {
+    "rank": 78,
+    "domain": "googleadservices.com",
+    "categories": [
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      },
+      {
+        "id": 66,
+        "name": "Advertisements",
+        "superCategoryId": 1
+      }
+    ]
+  },
+  {
+    "rank": 79,
+    "domain": "fastly.net",
+    "categories": [
+      {
+        "id": 108,
+        "name": "Information Security",
+        "superCategoryId": 12
+      },
+      {
+        "id": 109,
+        "name": "Information Technology",
+        "superCategoryId": 26
+      },
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 80,
+    "domain": "ssg.com",
+    "categories": [
+      {
+        "id": 88,
+        "name": "Ecommerce",
+        "superCategoryId": 22
+      }
+    ]
+  },
+  {
+    "rank": 81,
+    "domain": "skype.com",
+    "categories": [
+      {
+        "id": 110,
+        "name": "Instant Messengers",
+        "superCategoryId": 12
+      },
+      {
+        "id": 111,
+        "name": "Internet Phone & VOIP",
+        "superCategoryId": 12
+      }
+    ]
+  },
+  {
+    "rank": 82,
+    "domain": "ntp.org",
+    "categories": [
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      },
+      {
+        "id": 101,
+        "name": "Government/Legal",
+        "superCategoryId": 9
+      }
+    ]
+  },
+  {
+    "rank": 83,
+    "domain": "alicdn.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 84,
+    "domain": "msftncsi.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 85,
+    "domain": "appier.net",
+    "categories": [
+      {
+        "id": 75,
+        "name": "Business",
+        "superCategoryId": 3
+      },
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      }
+    ]
+  },
+  {
+    "rank": 86,
+    "domain": "windowsupdate.com",
+    "categories": [
+      {
+        "id": 109,
+        "name": "Information Technology",
+        "superCategoryId": 26
+      },
+      {
+        "id": 75,
+        "name": "Business",
+        "superCategoryId": 3
+      }
+    ]
+  },
+  {
+    "rank": 87,
+    "domain": "windows.com",
+    "categories": [
+      {
+        "id": 109,
+        "name": "Information Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 88,
+    "domain": "lencr.org",
+    "categories": [
+      {
+        "id": 109,
+        "name": "Information Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 89,
+    "domain": "spotify.com",
+    "categories": [
+      {
+        "id": 74,
+        "name": "Audio Streaming",
+        "superCategoryId": 7
+      }
+    ]
+  },
+  {
+    "rank": 90,
+    "domain": "nheos.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 91,
+    "domain": "azure.com",
+    "categories": [
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 92,
+    "domain": "digicert.com",
+    "categories": [
+      {
+        "id": 108,
+        "name": "Information Security",
+        "superCategoryId": 12
+      }
+    ]
+  },
+  {
+    "rank": 93,
+    "domain": "cloudflareinsights.com",
+    "categories": [
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      },
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 94,
+    "domain": "jsdelivr.net",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 95,
+    "domain": "taboola.com",
+    "categories": [
+      {
+        "id": 75,
+        "name": "Business",
+        "superCategoryId": 3
+      },
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      },
+      {
+        "id": 66,
+        "name": "Advertisements",
+        "superCategoryId": 1
+      }
+    ]
+  },
+  {
+    "rank": 96,
+    "domain": "smartadserver.com",
+    "categories": [
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      },
+      {
+        "id": 66,
+        "name": "Advertisements",
+        "superCategoryId": 1
+      }
+    ]
+  },
+  {
+    "rank": 97,
+    "domain": "skplanet.com",
+    "categories": [
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      },
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  },
+  {
+    "rank": 98,
+    "domain": "creativecdn.com",
+    "categories": [
+      {
+        "id": 81,
+        "name": "Content Servers",
+        "superCategoryId": 26
+      },
+      {
+        "id": 195,
+        "name": "Trackers/Analytics",
+        "superCategoryId": 1
+      }
+    ]
+  },
+  {
+    "rank": 99,
+    "domain": "qq.com",
+    "categories": [
+      {
+        "id": 122,
+        "name": "News & Media",
+        "superCategoryId": 7
+      }
+    ]
+  },
+  {
+    "rank": 100,
+    "domain": "ubuntu.com",
+    "categories": [
+      {
+        "id": 155,
+        "name": "Technology",
+        "superCategoryId": 26
+      }
+    ]
+  }
+]

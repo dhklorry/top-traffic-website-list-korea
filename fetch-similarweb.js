@@ -12,7 +12,7 @@ const fs = require('fs');
 const { URL } = require('url');
 const zlib = require('zlib');
 
-const country = process.argv[2] || 'taiwan';
+const country = process.argv[2] || 'south-korea';
 const SIMILARWEB_URL = `https://www.similarweb.com/top-websites/${country}/`;
 const OUTPUT_FILE = `similarweb_top_${country}.json`;
 

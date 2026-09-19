@@ -1,5 +1,5 @@
 /**
- * Semrush Taiwan traffic ranking fetcher
+ * Semrush South Korea traffic ranking fetcher
  *
  * Usage:
  *   node fetch-semrush.js
@@ -11,8 +11,8 @@ const https = require('https');
 const fs = require('fs');
 const { URL } = require('url');
 
-const SEMRUSH_URL = 'https://www.semrush.com/trending-websites/tw/all';
-const OUTPUT_FILE = 'semrush_top_tw.json';
+const SEMRUSH_URL = 'https://www.semrush.com/trending-websites/kr/all';
+const OUTPUT_FILE = 'semrush_top_kr.json';
 
 const httpsAgent = new https.Agent({
   rejectUnauthorized: false
@@ -129,7 +129,7 @@ function convertData(domains) {
 
 async function main() {
   try {
-    console.log('Downloading Taiwan rankings from Semrush...');
+    console.log('Downloading South Korea rankings from Semrush...');
 
     const html = await download(SEMRUSH_URL);
 

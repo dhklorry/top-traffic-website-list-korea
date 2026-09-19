@@ -1,5 +1,5 @@
 /**
- * Cloudflare Radar Taiwan traffic ranking fetcher
+ * Cloudflare Radar South Korea traffic ranking fetcher
  *
  * Usage:
  *   1. Create API token: https://dash.cloudflare.com/profile/api-tokens
@@ -21,7 +21,7 @@ if (!API_TOKEN || API_TOKEN === 'YOUR_API_TOKEN_HERE') {
   console.error('  2. Replace YOUR_API_TOKEN_HERE with your Cloudflare API token');
   process.exit(1);
 }
-const OUTPUT_FILE = 'cloudflare_radar_tw.json';
+const OUTPUT_FILE = 'cloudflare_radar_kr.json';
 
 const API_BASE = 'https://api.cloudflare.com/client/v4/radar/ranking/top';
 
@@ -73,9 +73,9 @@ function fetchRadarData(location = 'TW', limit = 100) {
 
 async function main() {
   try {
-    console.log('Downloading Taiwan rankings from Cloudflare Radar...');
+    console.log('Downloading South Korea rankings from Cloudflare Radar...');
 
-    const result = await fetchRadarData('TW', 100);
+    const result = await fetchRadarData('KR', 100);
 
     const topDomains = result.top_0 || result.top || [];
     const domains = topDomains.map((item) => ({

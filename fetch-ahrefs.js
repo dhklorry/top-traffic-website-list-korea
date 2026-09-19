@@ -1,5 +1,5 @@
 /**
- * AhrefsTop Taiwan traffic ranking fetcher
+ * AhrefsTop South Korea traffic ranking fetcher
  *
  * Usage:
  *   node fetch-ahrefs.js
@@ -11,8 +11,8 @@ const https = require('https');
 const fs = require('fs');
 const { URL } = require('url');
 
-const AHREFS_URL = 'https://ahrefstop.com/websites/taiwan';
-const OUTPUT_FILE = 'ahrefs_top_tw.json';
+const AHREFS_URL = 'https://ahrefstop.com/websites/south-korea';
+const OUTPUT_FILE = 'ahrefs_top_kr.json';
 
 const httpsAgent = new https.Agent({
   rejectUnauthorized: false
@@ -138,7 +138,7 @@ function parseTable(html) {
 
 async function main() {
   try {
-    console.log('Downloading Taiwan rankings from AhrefsTop...');
+    console.log('Downloading South Korea rankings from AhrefsTop...');
 
     const html = await download(AHREFS_URL);
 
