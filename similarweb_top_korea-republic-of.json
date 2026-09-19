@@ -1,0 +1,252 @@
+[
+  {
+    "rank": 1,
+    "website": "google.com",
+    "category": "Computers Electronics and Technology > Search Engines"
+  },
+  {
+    "rank": 2,
+    "website": "naver.com",
+    "category": "Computers Electronics and Technology > Search Engines"
+  },
+  {
+    "rank": 3,
+    "website": "youtube.com",
+    "category": "Arts & Entertainment > Streaming & Online TV"
+  },
+  {
+    "rank": 4,
+    "website": "dcinside.com",
+    "category": "Arts & Entertainment > Arts and Entertainment - Other"
+  },
+  {
+    "rank": 5,
+    "website": "namu.wiki",
+    "category": "Computers Electronics and Technology > Social Media Networks"
+  },
+  {
+    "rank": 6,
+    "website": "coupang.com",
+    "category": "Ecommerce & Shopping > Ecommerce and Shopping - Other"
+  },
+  {
+    "rank": 7,
+    "website": "daum.net",
+    "category": "Computers Electronics and Technology > Search Engines"
+  },
+  {
+    "rank": 8,
+    "website": "news.naver.com",
+    "category": "News & Media Publishers"
+  },
+  {
+    "rank": 9,
+    "website": "kakao.com",
+    "category": "Computers Electronics and Technology > Computers Electronics and Technology - Other"
+  },
+  {
+    "rank": 10,
+    "website": "chatgpt.com",
+    "category": "AI Chatbots and Tools"
+  },
+  {
+    "rank": 11,
+    "website": "fmkorea.com",
+    "category": "News & Media Publishers"
+  },
+  {
+    "rank": 12,
+    "website": "instagram.com",
+    "category": "Computers Electronics and Technology > Social Media Networks"
+  },
+  {
+    "rank": 13,
+    "website": "gemini.google.com",
+    "category": "AI Chatbots and Tools"
+  },
+  {
+    "rank": 14,
+    "website": "tistory.com",
+    "category": "Computers Electronics and Technology > Computers Electronics and Technology - Other"
+  },
+  {
+    "rank": 15,
+    "website": "map.naver.com",
+    "category": "Reference Materials > Maps"
+  },
+  {
+    "rank": 16,
+    "website": "nate.com",
+    "category": "Arts & Entertainment > Arts and Entertainment - Other"
+  },
+  {
+    "rank": 17,
+    "website": "theqoo.net",
+    "category": "Arts & Entertainment > Arts and Entertainment - Other"
+  },
+  {
+    "rank": 18,
+    "website": "aliexpress.com",
+    "category": "Ecommerce & Shopping > Marketplace"
+  },
+  {
+    "rank": 19,
+    "website": "donga.com",
+    "category": "News & Media Publishers"
+  },
+  {
+    "rank": 20,
+    "website": "arca.live",
+    "category": "Games > Video Games Consoles and Accessories"
+  },
+  {
+    "rank": 21,
+    "website": "sports.naver.com",
+    "category": "Sports > Sports - Other"
+  },
+  {
+    "rank": 22,
+    "website": "samsung.com",
+    "category": "Computers Electronics and Technology > Consumer Electronics"
+  },
+  {
+    "rank": 23,
+    "website": "x.com",
+    "category": "Computers Electronics and Technology > Social Media Networks"
+  },
+  {
+    "rank": 24,
+    "website": "news.nate.com",
+    "category": "News & Media Publishers"
+  },
+  {
+    "rank": 25,
+    "website": "sooplive.com",
+    "category": "Computers Electronics and Technology > Computers Electronics and Technology - Other"
+  },
+  {
+    "rank": 26,
+    "website": "ruliweb.com",
+    "category": "Games > Video Games Consoles and Accessories"
+  },
+  {
+    "rank": 27,
+    "website": "temu.com",
+    "category": "Ecommerce & Shopping > Marketplace"
+  },
+  {
+    "rank": 28,
+    "website": "netflix.com",
+    "category": "Arts & Entertainment > Streaming & Online TV"
+  },
+  {
+    "rank": 29,
+    "website": "inven.co.kr",
+    "category": "Games > Video Games Consoles and Accessories"
+  },
+  {
+    "rank": 30,
+    "website": "gmarket.co.kr",
+    "category": "Ecommerce & Shopping > Ecommerce and Shopping - Other"
+  },
+  {
+    "rank": 31,
+    "website": "ppomppu.co.kr",
+    "category": "Computers Electronics and Technology > Computers Electronics and Technology - Other"
+  },
+  {
+    "rank": 32,
+    "website": "kurly.com",
+    "category": "Ecommerce & Shopping > Ecommerce and Shopping - Other"
+  },
+  {
+    "rank": 33,
+    "website": "lotteon.com",
+    "category": "Ecommerce & Shopping > Ecommerce and Shopping - Other"
+  },
+  {
+    "rank": 34,
+    "website": "nexon.com",
+    "category": "Games > Video Games Consoles and Accessories"
+  },
+  {
+    "rank": 35,
+    "website": "ssg.com",
+    "category": "Ecommerce & Shopping > Ecommerce and Shopping - Other"
+  },
+  {
+    "rank": 36,
+    "website": "facebook.com",
+    "category": "Computers Electronics and Technology > Social Media Networks"
+  },
+  {
+    "rank": 37,
+    "website": "weather.go.kr",
+    "category": "Sports > Sports - Other"
+  },
+  {
+    "rank": 38,
+    "website": "danawa.com",
+    "category": "Computers Electronics and Technology > Consumer Electronics"
+  },
+  {
+    "rank": 39,
+    "website": "oliveyoung.co.kr",
+    "category": "Ecommerce & Shopping > Ecommerce and Shopping - Other"
+  },
+  {
+    "rank": 40,
+    "website": "dhlottery.co.kr",
+    "category": "Gambling > Lottery"
+  },
+  {
+    "rank": 41,
+    "website": "claude.ai",
+    "category": "AI Chatbots and Tools"
+  },
+  {
+    "rank": 42,
+    "website": "clien.net",
+    "category": "Computers Electronics and Technology > Computers Electronics and Technology - Other"
+  },
+  {
+    "rank": 43,
+    "website": "wikipedia.org",
+    "category": "Reference Materials > Dictionaries and Encyclopedias"
+  },
+  {
+    "rank": 44,
+    "website": "weather.naver.com",
+    "category": "Science and Education > Weather"
+  },
+  {
+    "rank": 45,
+    "website": "google.co.kr",
+    "category": "Computers Electronics and Technology > Search Engines"
+  },
+  {
+    "rank": 46,
+    "website": "chosun.com",
+    "category": "News & Media Publishers"
+  },
+  {
+    "rank": 47,
+    "website": "buzzvil.com",
+    "category": "Computers Electronics and Technology > Computers Electronics and Technology - Other"
+  },
+  {
+    "rank": 48,
+    "website": "map.kakao.com",
+    "category": "Reference Materials > Maps"
+  },
+  {
+    "rank": 49,
+    "website": "11st.co.kr",
+    "category": "Ecommerce & Shopping > Ecommerce and Shopping - Other"
+  },
+  {
+    "rank": 50,
+    "website": "cafe24.com",
+    "category": "Computers Electronics and Technology > Web Hosting and Domain Names"
+  }
+]
