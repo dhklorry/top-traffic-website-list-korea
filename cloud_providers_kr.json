@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "version": "0.1.0",
+    "updated_at": "2026-09-19",
+    "description": "Korean cloud provider classification candidates derived from observed ASN data. Geographic classification uses the IP geolocation returned by the test data."
+  },
+  "providers_intl": [
+    {
+      "name": "Amazon Web Services",
+      "identifiers": {
+        "asn": ["AS16509", "AS14618"],
+        "org_keywords": ["AMAZON", "AWS"]
+      }
+    },
+    {
+      "name": "Google Cloud",
+      "identifiers": {
+        "asn": ["AS15169", "AS396982", "AS19527"],
+        "org_keywords": ["GOOGLE", "GCP"]
+      },
+      "notes": [
+        "include googleusercontent.com"
+      ]
+    },
+    {
+      "name": "Microsoft Azure",
+      "identifiers": {
+        "asn": ["AS8075", "AS8068"],
+        "org_keywords": ["MICROSOFT", "AZURE"]
+      }
+    },
+    {
+      "name": "Cloudflare",
+      "identifiers": {
+        "asn": ["AS13335", "AS209242"],
+        "org_keywords": ["CLOUDFLARE"]
+      }
+    },
+    {
+      "name": "Akamai",
+      "identifiers": {
+        "asn": ["AS20940", "AS16625", "AS32787"],
+        "org_keywords": ["AKAMAI"]
+      }
+    },
+    {
+      "name": "Fastly",
+      "identifiers": {
+        "asn": ["AS54113"],
+        "org_keywords": ["FASTLY"]
+      }
+    },
+    {
+      "name": "Alibaba Cloud",
+      "identifiers": {
+        "asn": ["AS45102"],
+        "org_keywords": ["ALIBABA", "ALICLOUD"]
+      },
+      "notes": [
+        "Korea region: Seoul ap-northeast-2"
+      ]
+    },
+    {
+      "name": "Oracle Cloud",
+      "identifiers": {
+        "asn": ["AS31898"],
+        "org_keywords": ["ORACLE"]
+      },
+      "notes": [
+        "Korea regions: Seoul ap-seoul-1 and Chuncheon ap-chuncheon-1"
+      ]
+    },
+    {
+      "name": "Vultr",
+      "identifiers": {
+        "asn": ["AS20473"],
+        "org_keywords": ["VULTR", "CONSTANT COMPANY"]
+      },
+      "notes": [
+        "Korea location: Seoul icn"
+      ]
+    },
+    {
+      "name": "Hetzner",
+      "identifiers": {
+        "asn": ["AS24940"],
+        "org_keywords": ["HETZNER"]
+      },
+      "notes": [
+        "No Korea location identified in the current official location list"
+      ]
+    }
+  ],
+  "providers_local": [
+    {
+      "name": "NAVER Cloud",
+      "identifiers": {
+        "asn": ["AS23576"],
+        "org_keywords": ["NAVER CLOUD"]
+      }
+    },
+    {
+      "name": "Kakao Cloud",
+      "identifiers": {
+        "asn": ["AS38099", "AS7625", "AS18160", "AS152199"],
+        "org_keywords": ["KAKAO"]
+      }
+    },
+    {
+      "name": "GSNeotek",
+      "identifiers": {
+        "asn": ["AS38688"],
+        "org_keywords": ["GSNEOTEK"]
+      }
+    },
+    {
+      "name": "Hostway IDC",
+      "identifiers": {
+        "asn": ["AS9952"],
+        "org_keywords": ["HOSTWAY"]
+      }
+    }
+  ],
+  "providers_intl_without_known_korea_region": []
+}
